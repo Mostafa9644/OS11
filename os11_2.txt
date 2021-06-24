@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{OS11}
+\author{Mostafa Zavvar}
+\date{June 2021}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+Mostafa Zavvar, Born on september 1999 .\\
+Computer Engineer\\
+Sadjad University\\
+
+
+\section{Table :}
+\begin{table}[h]
+    \centering
+    top favorite anime : \\
+    \begin{tabular}{|c|c|c|}
+    \hline
+    \textbf{#}&\textbf{Name}\\
+    \hline 1 & Steins;Gate \\
+    \hline 2 & Gintama° \\
+    \hline 3 & Violet Evergarden \\
+    \hline
+    \end{tabular}
+\end{table}
+\section{Code :}
+\begin{lstlisting}
+string = input()
+
+try:
+    num = int(input())
+    print(string+num)
+except (TypeError, ValueError) as e:
+    print(e)
+\end{lstlisting}
+
+\section{Formulas :}
+e^{ \pm i\theta } = \cos \theta \pm i\sin \theta
+\end{document}
